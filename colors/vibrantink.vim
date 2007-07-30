@@ -1,9 +1,10 @@
 " Vim color scheme
 "
 " Name:         vibrantink.vim
-" Maintainer:   Jo Vermeulen <jo.vermeulen@gmail.com>
-" Last Change:  10 Apr 2007
-" Version:      1.1
+" Maintainer:   Jo Vermeulen <jo.vermeulen@gmail.com> 
+" Last Change:  30 Jul 2007 
+" License:      public domain
+" Version:      1.2
 "
 " This scheme should work in the GUI and in xterm's 256 color mode. It won't
 " work in 8/16 color terminals.
@@ -23,7 +24,7 @@ if exists("syntax_on")
    syntax reset
 endif
 
-let colors_name = "vibrantink"
+let g:colors_name = "vibrantink"
 
 if has("gui_running")
     highlight Normal guifg=White   guibg=Black
